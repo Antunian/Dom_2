@@ -1,4 +1,7 @@
-﻿Console.Write("Введите число: ");
+﻿ /*Напишите программу, которая принимает 
+ на вход число и выдаёт сумму цифр в числе.*/
+
+Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int len = Length(a);
 Console.Write($"Сумма цифр в числе {a} равно: {Sum(a,len)}");
